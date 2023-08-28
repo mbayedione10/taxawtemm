@@ -6,14 +6,17 @@ import Layout from '../layouts/Layout.astro';
 import Testimonials from '../components/Testimonials.astro';
 import CallToAction from '../components/CallToAction.astro';
 import Blog from '../components/Blog.astro';
+import BoitePresentation from '../components/boite-presentation.astro';
+import BoiteContenu from '../components/boite-contenu.astro';
+import BoiteTemoignagne from '../components/boite-temoignagne.astro';
 ---
 
 <Layout title="Welcome to Astrolus.">
 	<main class="space-y-40 mb-40">
 		<HeroSection/>
-		<Features/>
-		<Stats/>
-		<Testimonials/>
+		<BoitePresentation/>
+		<BoiteContenu/>
+		<BoiteTemoignagne/>
 		<CallToAction/>
 		<Blog/>
 	</main>
